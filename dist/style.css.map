@@ -11,7 +11,8 @@
         "../app/scss/_hero.scss",
         "../app/scss/_feature.scss",
         "../app/scss/_article.scss",
-        "../app/scss/_footer.scss"
+        "../app/scss/_footer.scss",
+        "../app/scss/_admin.scss"
     ],
     "names": [],
     "file": "style.css"

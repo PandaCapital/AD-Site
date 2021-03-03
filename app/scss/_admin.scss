@@ -1,0 +1,30 @@
+.header{
+  background: darkred;
+}
+
+.admin-wrapper {
+    
+        height: calc(100% - 66px);
+}
+.admin-wrapper.left-sidebar {
+    flex: 2;
+    height: 100%;
+    
+}
+
+.admin-wrapper.left-sidebar ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  color: darkred;
+}
+
+.admin-wrapper.left-sidebar ul li a {
+  padding: 18px;
+  display: block;
+  border-bottom: darkgreen;
+}
+.admin-wrapper.admin-content {
+    flex: 8;
+    height: 100%;
+}
