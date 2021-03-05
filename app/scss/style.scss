@@ -1,7 +1,7 @@
 @import "variables";
 @import "mixins";
 @import "animations";
-@import "admin";
+@import "reboot";
 
 @import "globals";
 @import "header";
@@ -9,4 +9,8 @@
 @import "feature";
 @import "article";
 @import "footer";
+@import "dropdown";
+@import "navbar";
+@import "buttons";
+
 

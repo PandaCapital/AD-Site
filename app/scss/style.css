@@ -72,39 +72,18 @@
           animation: fade-out 200ms ease-in-out forwards;
 }
 
-.header {
-  background: darkred;
+.admin__header {
+  position: relative;
 }
 
-.admin-wrapper {
-  height: calc(100% - 66px);
-}
-
-.admin-wrapper.left-sidebar {
-  -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
-  height: 100%;
-}
-
-.admin-wrapper.left-sidebar ul {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-  color: darkred;
-}
-
-.admin-wrapper.left-sidebar ul li a {
-  padding: 18px;
-  display: block;
-  border-bottom: darkgreen;
-}
-
-.admin-wrapper.admin-content {
-  -webkit-box-flex: 8;
-      -ms-flex: 8;
-          flex: 8;
-  height: 100%;
+.admin__container {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: white;
+  margin-top: 1.5rem;
+  padding: 1.625rem;
+  border-radius: 5px;
 }
 
 html {

@@ -12,7 +12,10 @@
         "../app/scss/_feature.scss",
         "../app/scss/_article.scss",
         "../app/scss/_footer.scss",
-        "../app/scss/_admin.scss"
+        "../app/scss/_reboot.scss",
+        "../app/scss/_navbar.scss",
+        "../app/scss/_dropdown.scss",
+        "../app/scss/_buttons.scss"
     ],
     "names": [],
     "file": "style.css"

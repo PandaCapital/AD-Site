@@ -10,13 +10,11 @@
   <title>AutoDice | Transparent car buying has arrived </title>
 
 </head>
-<body>
-
-  <header class="header">
+<header class="header">
     <div class="overlay has-fade"></div>
 
     <nav class="container container--pall flex flex-jc-sb flex-ai-c">
-        <a href="/home.html" class="header__logo">
+        <a href="home.html" class="header__logo">
           <img src="/images/Logo-1.png" alt="AutoDice" />
         </a>
 
@@ -25,25 +23,33 @@
           <span></span>
           <span></span>
         </a>
-            </a>    
-            <div class="header__links hide-for-mobile">
-              <a href="/index2.html">Dashboard</a><a href="posts.html">Post</a><a href="categories.html">Categories</a><a href="/blog.html">Blog</a><a href="users.html">Users</a>
-            </div>
-    
-    </nav>
 
-        <div class="header__menu has-fade">
-          <a href="index2.html">Dashboard</a>
-          <a href="posts.html">Post</a>
-          <a href="categories.html">Categories</a>
-          <a href="/blog.html">Blog</a>
-          <a href="users.html">Users</a>
+        <div class="header__links hide-for-mobile">
+          <a href="home.html">Dashboard</a><a href="#">Post</a><a href="#">Categories</a><a href="blog.html">Blog</a><a href="#">Users</a>
         </div>
 
-    </header>    
-<section class="admin"
+        <a href="#" class="button header__cta hide-for-mobile">Build Your Car</a>
+    </nav>
+
+    <div class="header__menu has-fade">
+      <a href="home.html">Dashboard</a>
+      <a href="">Post</a>
+      <a href="">Categories</a>
+      <a href="blog.html">Blog</a>
+      <a href="">Users</a>
+    </div>
+
+  </header>
+
+<body>
     
-               
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Admin UI</a>
+            <button class="navbar-toggler" data-toggle="collpase" daata-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown mr-3">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
@@ -67,11 +73,9 @@
             </div>
         </div>
     </nav>
-</section>    
-
-    <!--Header
+    <!--Header-->
     <header id="main-header" class="py-2 bg-primary text-white">
-        <div class="admin__header">
+        <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <h1><i class="fas fa-cog"></i> Dashboard</h1>
@@ -79,16 +83,14 @@
             </div>
         </div>
     </header>
-    -->
 
 <!--Actions-->
-    
-        <section id="actions" class="py-4 mb-4 bg-light">
-        <div class="admin__container">
+    <section id="actions" class="py-4 mb-4 bg-light">
+        <div class="container">
             <div class="row">
                 <div class="col-md-3">
                     <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#addPostModal">
-                         <i class="fas fa-plus"></i> Add Post
+                        <i class="fas fa-plus"></i> Add Post
                     </a>
                 </div>
 
@@ -106,7 +108,6 @@
             </div>
         </div>
     </section>
-
 
     <!--Posts-->
     <section id="posts">
